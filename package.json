@@ -1,0 +1,21 @@
+{
+  "name": "9-ball-scorekeeper",
+  "version": "1.0.0",
+  "description": "An app for keeping score in APA 9-ball format",
+  "main": "index.js",
+  "repository": "https://github.com/NathanWaddell121107/9-ball-scorekeeper.git",
+  "author": "NathanWaddell1211 <waddellnathan1211@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
