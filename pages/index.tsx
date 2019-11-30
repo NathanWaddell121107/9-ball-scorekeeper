@@ -1,9 +1,13 @@
-import styled from "styled-components";
+import * as React from "react";
+import Header from "../client/components/landing page/header";
+import Layout from "../client/components/layout/layout";
 
-const Index = () => <Hello>Hello Next.js</Hello>;
+const Index = () => {
+  return (
+    <Layout>
+      <Header />
+    </Layout>
+  );
+};
 
 export default Index;
-
-const Hello = styled.div`
-  background-color: blue;
-`;
