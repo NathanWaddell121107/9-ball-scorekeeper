@@ -17,5 +17,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/styled-components": "^4.4.0",
+    "babel-plugin-styled-components": "^1.10.6"
   }
 }
