@@ -7,12 +7,11 @@ export const TrackerWrapper = styled.div`
 export const InnerWrapper = styled.div`
   display: flex;
   justify-content: space-around;
-  padding: 50px;
+  padding: 150px 100px 0;
 `;
 
 export const PlayerTracker = styled.div`
   text-align: center;
   min-width: 300px;
   min-height: 300px;
-  border: 1px solid #000;
 `;
