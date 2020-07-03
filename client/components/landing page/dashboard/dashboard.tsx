@@ -8,6 +8,7 @@ const Dashboard = () => {
   const playerName = "Nathan";
   return (
     <Styled.DashboardWrapper>
+      <a href='#'>Start new match</a>
       <h2>{playerName}'s Dashboard</h2>
       <Styled.StatsContainer>
         <PlayerStats />

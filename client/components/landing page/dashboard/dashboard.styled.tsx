@@ -7,6 +7,13 @@ export const DashboardWrapper = styled.div`
     font-weight: 500;
     text-align: center;
   }
+  > a {
+    text-decoration: none;
+    color: #028bca;
+    &:hover {
+      color: #000;
+    }
+  }
 `;
 
 export const StatsContainer = styled.div`
