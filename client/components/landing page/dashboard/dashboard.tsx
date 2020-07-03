@@ -4,11 +4,15 @@ import PlayerStats from "./player-stats";
 import TeamStats from "./team-stats";
 
 const Dashboard = () => {
+  // this will be populated with the users data
+  const playerName = "Nathan";
   return (
     <Styled.DashboardWrapper>
-      Dashboard
-      <PlayerStats />
-      <TeamStats />
+      <h2>{playerName}'s Dashboard</h2>
+      <Styled.StatsContainer>
+        <PlayerStats />
+        <TeamStats />
+      </Styled.StatsContainer>
     </Styled.DashboardWrapper>
   );
 };
