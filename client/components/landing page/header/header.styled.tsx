@@ -8,6 +8,7 @@ export const HeaderOuterWrapper = styled.div`
 `;
 
 export const NineBallImage = styled.div`
+  cursor: pointer;
   width: 10%;
   margin-left: 40px;
   > img {
