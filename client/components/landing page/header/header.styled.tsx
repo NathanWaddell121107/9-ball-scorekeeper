@@ -4,25 +4,29 @@ export const HeaderOuterWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #004380d9; */
+  background-color: #004380d9;
 `;
 
 export const NineBallImage = styled.div`
   width: 10%;
   margin-left: 40px;
   > img {
-    width: 100%;
+    width: 80%;
   }
+`;
+
+export const HeaderText = styled.h1`
+  color: #fff;
 `;
 
 export const Buttons = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-right: 20px;
+  margin-right: 100px;
   > a {
     padding: 0 20px;
     text-decoration: none;
-    color: #28bafd;
+    color: #fff;
     &:hover {
       color: #028bca;
     }
