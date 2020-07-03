@@ -22,7 +22,7 @@ export const HeaderText = styled.h1`
 export const Buttons = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-right: 100px;
+  margin-right: 40px;
   > a {
     padding: 0 20px;
     text-decoration: none;

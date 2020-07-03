@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
     const sheet = new ServerStyleSheet();
 
     // Step 2: Retrieve styles from components in the page
-    const page = renderPage(App => props =>
+    const page = renderPage((App) => (props) =>
       sheet.collectStyles(<App {...props} />)
     );
 
@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>9-ball Score Keeper</title>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
         </Head>
