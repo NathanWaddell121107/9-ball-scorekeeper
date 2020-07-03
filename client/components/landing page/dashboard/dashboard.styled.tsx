@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const DashboardWrapper = styled.div`
-  padding: 50px;
+  padding: 50px 50px 0;
   > h2 {
     font-size: 1.5rem;
     font-weight: 500;

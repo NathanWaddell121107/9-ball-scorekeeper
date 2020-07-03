@@ -1,5 +1,6 @@
 import * as React from "react";
 import * as Styled from "./dashboard.styled";
+import Link from "next/link";
 import PlayerStats from "./player-stats";
 import TeamStats from "./team-stats";
 
@@ -8,7 +9,7 @@ const Dashboard = () => {
   const playerName = "Nathan";
   return (
     <Styled.DashboardWrapper>
-      <a href='#'>Start new match</a>
+      <Link href='/score-keeping'>Start new match</Link>
       <h2>{playerName}'s Dashboard</h2>
       <Styled.StatsContainer>
         <PlayerStats />
