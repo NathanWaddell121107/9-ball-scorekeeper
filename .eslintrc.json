@@ -1,0 +1,69 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "commonjs": true,
+    "jest": true
+  },
+  "plugins": ["react", "prettier", "@typescript-eslint", "react-hooks"],
+  "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended", "plugin:@typescript-eslint/recommended"],
+  "root": true,
+  "settings": {
+    "react": {
+      "version": "16.8.6"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["./"]
+      }
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    }
+  },
+  "rules": {
+    "@typescript-eslint/member-delimiter-style": [
+      "error",
+      {
+        "multiline": {
+          "delimiter": "none",
+          "requireLast": false
+        }
+      }
+    ],
+    "sort-imports": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/display-name": 0,
+    "@typescript-eslint/ban-ts-ignore": 0,
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/interface-name-prefix": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "prettier/prettier": "error",
+    "react/prefer-stateless-function": 0,
+    "linebreak-style": 0,
+    "eslint/prettier/linebreak-style": 0,
+    "no-case-declarations": 0,
+    "jsx-a11y/heading-has-content": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "no-underscore-dangle": 0,
+    "react/no-find-dom-node": 0,
+    "react/prop-types": 0,
+    "no-nested-ternary": 0,
+    "react/no-unescaped-entities": 0
+  },
+  "globals": {
+    "grecaptcha": "readonly"
+  }
+}

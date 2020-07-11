@@ -1,0 +1,9 @@
+public
+README.md
+dist
+node_modules
+.next
+src/test
+*.spec.ts
+grayskull
+*.d.ts

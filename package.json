@@ -7,6 +7,9 @@
   "author": "NathanWaddell1211 <waddellnathan1211@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^7.4.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.23",
     "next": "^9.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -14,13 +17,20 @@
     "typescript": "^3.7.2"
   },
   "scripts": {
+    "format": "prettier --check */**/*.{js,ts,tsx}",
+    "lint": "eslint . -c .eslintrc.json --no-error-on-unmatched-pattern --fix --ext .js,.jsx,.ts,.tsx",
+    "setup": "yarn install",
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "watch": "nodemon --watch dist/src/server dist/src/server/index.js"
   },
   "devDependencies": {
     "@types/node": "^12.12.14",
     "@types/styled-components": "^4.4.0",
     "babel-plugin-styled-components": "^1.10.6"
+  },
+  "nodemonConfig": {
+    "delay": "2000"
   }
 }
