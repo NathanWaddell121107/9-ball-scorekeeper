@@ -1,7 +1,7 @@
-import * as React from "react";
-import Header from "../client/components/landing page/header";
-import Layout from "../client/components/layout/layout";
-import Dashboard from "../client/components/landing page/dashboard";
+import * as React from 'react'
+import Header from '../src/components/landing page/header'
+import Layout from '../src/components/layout/layout'
+import Dashboard from '../src/components/landing page/dashboard'
 
 const Index = () => {
   return (
@@ -9,7 +9,7 @@ const Index = () => {
       <Header />
       <Dashboard />
     </Layout>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index

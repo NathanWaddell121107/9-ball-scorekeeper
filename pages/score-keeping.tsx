@@ -1,7 +1,7 @@
-import * as React from "react";
-import Layout from "../client/components/layout/layout";
-import Header from "../client/components/landing page/header";
-import ScoreTracker from "../client/components/score-keeping/score-tracker";
+import * as React from 'react'
+import Layout from '../src/components/layout/layout'
+import Header from '../src/components/landing page/header'
+import ScoreTracker from '../src/components/score-keeping/score-tracker'
 
 const ScoreKeepingPage = () => {
   return (
@@ -9,7 +9,7 @@ const ScoreKeepingPage = () => {
       <Header />
       <ScoreTracker />
     </Layout>
-  );
-};
+  )
+}
 
-export default ScoreKeepingPage;
+export default ScoreKeepingPage
